@@ -1,8 +1,15 @@
 aid: beamery
 name: Beamery
-description: 'Beamery is a company surfaced as a portfolio company of eqt-ventures, index-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: hr-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Beamery is an AI-powered talent lifecycle management and workforce transformation
+  platform used by enterprises to unify fragmented talent data and run skills-based
+  hiring. It combines a talent CRM (candidate relationship management), talent
+  marketing, workforce and skills intelligence, internal talent mobility, and
+  AI-driven candidate recommendations into a single system of record for talent.
+  Beamery integrates with HR ecosystems such as Workday and SAP SuccessFactors and
+  is delivered as enterprise SaaS. Backed by EQT Ventures and Index Ventures, it was
+  added to the API Evangelist network and enriched with its public security,
+  compliance, and trust surface. Sector: hr-tech.
 url: https://raw.githubusercontent.com/api-evangelist/beamery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,31 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://beamery.com/images/social.jpg
 tags:
 - Company
 - Hr Tech
+- Talent
+- Recruiting
+- Talent CRM
+- Workforce Planning
+- Skills Intelligence
+- AI
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,32 @@ maintainers:
 common:
 - type: Website
   url: https://beamery.com/
+- type: Support
+  url: https://support.beamery.com/
+- type: Blog
+  url: https://beamery.com/resources/blogs
+- type: TermsOfService
+  url: https://beamery.com/website-terms-of-use/
+- type: PrivacyPolicy
+  url: https://beamery.com/privacy-policy/
+- type: Security
+  url: https://beamery.com/security/
+- type: Compliance
+  url: https://beamery.com/compliance/
+- type: TrustCenter
+  url: https://trust.beamery.com/
+- type: VulnerabilityDisclosure
+  url: security/beamery-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/beamery-trust-center.yml
+- type: Conformance
+  url: conformance/beamery-conformance.yml
+- type: DomainSecurity
+  url: security/beamery-domain-security.yml
+- type: LLMsTxt
+  url: llms/beamery-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

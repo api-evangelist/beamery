@@ -1,0 +1,14 @@
+{
+  "repo": "beamery",
+  "feeds": [
+    {
+      "source": "https://support.beamery.com/",
+      "feed_url": "https://support.beamery.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}

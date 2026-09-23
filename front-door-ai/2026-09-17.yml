@@ -1,0 +1,29 @@
+# Front Door AI Index — beamery — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: beamery
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: beamery.com
+  final_host: beamery.com
+  ownership: own
+  owner: beamery
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 42
+  host_score: 42
+  density: 23.45
+  words: 1791
+  tiers:
+    agentic: 9
+    core: 33
+    model: 0
+  ambiguous: 32
+  top_terms:
+    AI: 33
+    intelligence: 31
+    agentic: 7
+    chatbot: 2
+    automation: 1
